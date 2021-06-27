@@ -1,0 +1,118 @@
+.btn{
+    border: 1px solid #6bdd6b;
+    background-color: #6bdd6b;
+    border-radius: 0px;
+    font-weight: bolder;
+}
+.btn:hover{
+    border: 1px solid #80f180;
+    background-color: #80f180;
+}
+.bt-cl{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+}
+.navv{
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    top:0px;
+    z-index: 0;
+}
+.navv .navli{
+    padding-left: 40px;
+}
+.navli a{
+    font-weight: bold;
+}
+
+.nav-link:hover{
+    background-color: rgba(175, 173, 173, 0.788);
+    color: whitesmoke;
+}
+
+.banner{
+    font-weight: 10px;
+    margin-top: 200px;
+}
+.banner-p{
+    text-align:center;
+    font-size: larger;
+    margin-right: 4%;
+}
+.banner-img{
+    background-image:url("./image/homepage_banner.png") ;
+    background-size:contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    height: 700px;
+    position: relative;
+    left: 0px;
+    z-index:-1;
+    
+}
+.sub-menu-1{
+    display: none;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.sub-menu-1 li,a{
+    text-decoration: none;
+    list-style: none;
+    margin-left:5px;
+}
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin-top:0px;
+    
+}
+.subdiv{
+    margin-left: -30px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+.sub-txt{
+    font-size: large;
+    text-align: justify;
+    font-weight: bold;
+}
+.subdiv:hover{
+    background-color:rgb(157, 248, 157);
+}
+.form-label{
+    margin-left: -20px;
+    font-weight: bold;
+}
+.mail-link:hover{
+    color:#80f180
+}
+@media(max-width:1078px)
+{
+    .div-1{
+   justify-content: center;
+   text-align: justify;
+    }
+}
+
+
+.form-control::placeholder{
+    visibility: hidden;
+}
+
+.form-control:focus::placeholder{
+    visibility: visible;
+    border: 2PX SOLID RED;
+}
+
+.modal{
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.1), 0 5px 12px 0 rgba(0, 0, 0, 0.1);
+}
+.bg{
+    background-color: #f4f4f4;
+}
+.circle-img{
+    box-shadow: 0 5px 9px 0 rgba(0, 0, 0, 0.5), 0 5px 12px 0 rgba(0, 0, 0, 0.3);
+    height: 70px;
+    width: 70px;
+    padding: 10px
+}
